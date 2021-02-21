@@ -1,7 +1,7 @@
 ![build](https://github.com/daite/hisho/workflows/Rust/badge.svg)
 [![Build Status](https://travis-ci.com/daite/hisho.svg?branch=main)](https://travis-ci.com/daite/hisho)
 # hisho (秘書)
-## Usage
+## 1. Usage
 > hisho -s "동상이몽2"
 ```
 [*] Hisho 0.1.0 starts crawling!!!
@@ -25,3 +25,5 @@
 | 동상이몽2 너는 내운명.E179.210111.720p-NEXT.mp4      | magnet:?xt=urn:btih:2d5eee0743df5950f0193ca53017ecb99409b5c4 |
 +-------------------------------------------------+--------------------------------------------------------------+
 ```
+## 2. Reference
+* [Fearless-concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
