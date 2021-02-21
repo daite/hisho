@@ -1,0 +1,16 @@
+#[macro_use] extern crate prettytable;
+use prettytable::{Table, format, Cell, Row};
+use select::document::Document;
+use select::predicate::{Class, Name};
+use reqwest::header::USER_AGENT;
+use reqwest::blocking::Client;
+use std::error::Error;
+use std::thread;
+use std::sync::{Mutex, Arc, mpsc};
+use url::Url;
+use std::collections::HashMap;
+pub mod common;
+pub mod sites;
+pub mod consts;
+pub use crate::common::{print_table, execute};
+pub use crate::sites::{torrentsir, ttobogo, torrentmax};
